@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plot - Prison Break</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Requirement 1: Consistent navigation -->
+    <header class="bg-blue-900 text-white p-4">
+      <nav class="flex gap-4 flex-wrap">
+        <a href="index.html" class="hover:text-blue-300">Home</a>
+        <a href="page2.html" class="hover:text-blue-300">Characters</a>
+        <a href="page3.html" class="hover:text-blue-300">Seasons</a>
+        <a href="page4.html" class="font-bold underline">Plot</a>
+        <a href="page5.html" class="hover:text-blue-300">Creator</a>
+      </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+      <h1 class="text-4xl font-bold text-blue-900 mb-6">Plot Summary</h1>
+
+      <!-- Requirement 3: Flex layout for responsive content -->
+      <div class="flex flex-col gap-6 mb-6">
+        <section class="bg-white rounded-lg shadow-md p-6 flex flex-col md:flex-row gap-4">
+          <div class="md:w-2/3">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">The Setup</h2>
+            <p class="text-gray-700">Michael Scofield, a young structural engineer, learns that his brother Lincoln has been wrongly convicted of murdering the Vice President's brother. With Lincoln on death row, Michael devises an intricate plan to break him out of Fox River Penitentiary by intentionally getting himself imprisoned.</p>
+          </div>
+          <div class="md:w-1/3 bg-blue-100 p-4 rounded">
+            <p class="text-sm font-semibold text-blue-900">Key Element: The Tattoo Blueprint</p>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-6 flex flex-col md:flex-row gap-4">
+          <div class="md:w-2/3">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">The Execution</h2>
+            <p class="text-gray-700">Inside the prison, Michael carefully builds alliances with other inmates, manipulating situations to move closer to Lincoln. He executes his plan phase by phase, navigating guards, rival inmates, and internal prison politics while keeping his true intentions hidden.</p>
+          </div>
+          <div class="md:w-1/3 bg-blue-100 p-4 rounded">
+            <p class="text-sm font-semibold text-blue-900">Key Element: Team Formation</p>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-md p-6 flex flex-col md:flex-row gap-4">
+          <div class="md:w-2/3">
+            <h2 class="text-2xl font-bold text-blue-900 mb-3">The Escape</h2>
+            <p class="text-gray-700">The brothers execute the escape plan and flee, becoming fugitives. What unfolds is a high-stakes chase across the country as they evade capture, discover a larger conspiracy, and fight for their freedom and justice.</p>
+          </div>
+          <div class="md:w-1/3 bg-blue-100 p-4 rounded">
+            <p class="text-sm font-semibold text-blue-900">Key Element: Revelation</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Requirement 4: New semantic tag - aside -->
+      <aside class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded">
+        <h3 class="text-lg font-bold text-yellow-900 mb-2">Did You Know?</h3>
+        <p class="text-gray-700">The show was created by Paul Scheuring, who drew inspiration from various sources including architecture and true crime stories. The innovative use of tattoos as a plot device became iconic and set the show apart from typical prison dramas.</p>
+      </aside>
+    </main>
+
+    <!-- Requirement 8: Footer with time element -->
+    <footer class="bg-blue-900 text-white p-4 text-center mt-12">
+      <p>&copy; 2025 Prison Break Showcase</p>
+      <small>Last updated: <time datetime="2025-11-15">November 15, 2025</time></small>
+    </footer>
+  </body>
+</html>

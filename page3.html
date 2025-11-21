@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seasons - Prison Break</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Requirement 1: Consistent navigation -->
+    <header class="bg-blue-900 text-white p-4">
+        <nav class="flex gap-4 flex-wrap">
+            <a href="index.html" class="hover:text-blue-300">Home</a>
+            <a href="page2.html" class="hover:text-blue-300">Characters</a>
+            <a href="page3.html" class="font-bold underline">Seasons</a>
+            <a href="page4.html" class="hover:text-blue-300">Plot</a>
+            <a href="page5.html" class="hover:text-blue-300">Creator</a>
+        </nav>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold text-blue-900 mb-6">Seasons Overview</h1>
+
+        <!-- Requirement 3: Responsive grid layout at different breakpoints -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+            <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Season 1</h2>
+                <p class="text-sm">The escape plan unfolds as Michael enters Fox River Prison.</p>
+                <span class="inline-block mt-4 bg-blue-900 px-3 py-1 rounded text-xs font-semibold">22 Episodes</span>
+            </div>
+            <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Season 2</h2>
+                <p class="text-sm">The brothers escape and evade capture across the country.</p>
+                <span class="inline-block mt-4 bg-blue-900 px-3 py-1 rounded text-xs font-semibold">24 Episodes</span>
+            </div>
+            <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Season 3</h2>
+                <p class="text-sm">Imprisoned in Panama, a new escape plan emerges.</p>
+                <span class="inline-block mt-4 bg-blue-900 px-3 py-1 rounded text-xs font-semibold">13 Episodes</span>
+            </div>
+            <div class="bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Season 4</h2>
+                <p class="text-sm">The Company's conspiracy becomes the central conflict.</p>
+                <span class="inline-block mt-4 bg-blue-900 px-3 py-1 rounded text-xs font-semibold">24 Episodes</span>
+            </div>
+            <div class="bg-gradient-to-br from-green-500 to-green-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Season 5</h2>
+                <p class="text-sm">Final season with epic conclusion.</p>
+                <span class="inline-block mt-4 bg-green-900 px-3 py-1 rounded text-xs font-semibold">9 Episodes</span>
+            </div>
+            <div class="bg-gradient-to-br from-purple-500 to-purple-700 text-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold mb-2">Revival (2017)</h2>
+                <p class="text-sm">Limited series bringing back the beloved characters.</p>
+                <span class="inline-block mt-4 bg-purple-900 px-3 py-1 rounded text-xs font-semibold">9 Episodes</span>
+            </div>
+        </div>
+
+        <!-- Requirement 4: New semantic tag - mark -->
+        <section class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">Original Run</h2>
+            <p class="text-gray-700">
+                Prison Break aired from <mark class="bg-yellow-300 px-1">2005 to 2009</mark>, captivating audiences
+                worldwide with its innovative storytelling and character development. The series was <mark
+                    class="bg-yellow-300 px-1">created by Paul Scheuring</mark> and became a cultural phenomenon.
+            </p>
+        </section>
+    </main>
+
+    <!-- Requirement 8: Footer with time element -->
+    <footer class="bg-blue-900 text-white p-4 text-center mt-12">
+        <p>&copy; 2025 Prison Break Showcase</p>
+        <small>Last updated: <time datetime="2025-11-15">November 15, 2025</time></small>
+    </footer>
+</body>
+
+</html>
